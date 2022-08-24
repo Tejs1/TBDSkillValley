@@ -6,6 +6,7 @@ import Kanban from "./components/Kanban";
 import LandingPage from "./components/LandingPage";
 import Navbar from "./components/Navbar";
 import OfferLetter from "./components/OfferLetter";
+import Dashboard from "./components/Dashboard";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <main>
         <Routes>
           <Route path="/auth" element={<Auth />} />
+          <Route path="/dashboard" element={<Dashboard />} />
           <Route path="/kanban" element={<Kanban />} />
           <Route
             path="/cerificate-generator"
